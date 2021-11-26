@@ -1,4 +1,7 @@
-	         variable "image" {
+	       provider "aws" {
+		       region = "ap-south-1"
+	       }
+               variable "image" {
 	          type = string
 	         default = "ami-0108d6a82a783b352"
 	        }
